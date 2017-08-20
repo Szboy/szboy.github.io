@@ -2,13 +2,14 @@
 layout: default
 ---
 
-<div class="jumbotron head" style="padding-left: 30px">
+<div class="jumbotron head" style="padding-left: 10%">
     <h1>XML Documentation</h1>
     <p class="lead">Documentation on XML files that are required for each map to be added to the servers</p>
 </div>
+<div class="col-sm-10 col-sm-offset-1">
 <section>
     <div class="page-header">
-        <h1 style="padding: 24px 30px">Welcome</h1>
+        <h1 style="padding-left: 30px">Welcome</h1>
     </div>
     <div class="col-sm-12">
 
@@ -72,3 +73,4 @@ All attributes or sub-elements for a element or module are listed in a table and
 </div>
 </div>
 </section>
+</div>
