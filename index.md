@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="jumbotron head" style="padding-left: 10%">
+<div class="jumbotron head" style="text-align: center">
     <h1>XML Documentation</h1>
     <p class="lead">Documentation on XML files that are required for each map to be added to the servers</p>
 </div>
@@ -23,7 +23,7 @@ Almost every text editor can create and edit XML files, however editors designed
 
 We recommend that you use [Atom](https://atom.io/) to create and edit XML files.
 
-To keep your XML file clean & readable you should indent lines using 4 spaces and only specify elements or attributes you intend to use. If you are using Atom, we recommend the [Thunder](https://github.com/Matic0B/Thunder) plugin for Atom to simplify and help you with creating XML for your map.
+To keep your XML file clean & readable you should indent lines using 4 spaces and only specify elements or attributes you intend to use. 
 
 ### Releasing Your Map
 Before releasing your map for testing, you must package your map following [these guidelines](/guides/packaging/cleaning_files).
