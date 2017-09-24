@@ -305,17 +305,17 @@ ul.changelog .label {
 
 
 /* Other */
-.noDeco a {
+.no-deco a {
     color: #424242;
     text-decoration: none !important;
 }
 
-.noDeco a:hover {
+.no-deco a:hover {
     font-weight: bold;
     color: #000000;
 }
 
-.sActive {
+.second-active {
     font-weight: bold;
     color: #000000;
 }

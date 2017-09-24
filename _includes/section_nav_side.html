@@ -1,7 +1,7 @@
-<div class="sidebar hidden-xs noDeco" style="border-right-style: solid; border-right-width: 1px; border-right-color: #BDBDBD">
+<div class="sidebar hidden-xs no-deco" style="border-right-style: solid; border-right-width: 1px; border-right-color: #BDBDBD">
     {% for item in sidebar.content %}
     {% if item.first %}
-    <span class="{% if page.url contains item.path %}sActive{% endif %}">
+    <span class="{% if page.url contains item.path %}second-active{% endif %}">
         <a href="{{item.path}}">
             {% if item.icon %}
             <i class="fa fa-fw {{item.icon}}"></i>
